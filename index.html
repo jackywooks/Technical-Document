@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="styles/styles.css" />
+    <title>Technical Documentation Page</title>
+  </head>
+  <body>
+    <nav id="navbar">
+      <header>Web Programming Language</header>
+      <ul class="nav">
+        <li><a class="nav-link" href="#Introduction">Introduction</a></li>
+        <li><a class="nav-link" href="#HTML">HTML</a></li>
+        <li><a class="nav-link" href="#CSS">CSS</a></li>
+        <li><a class="nav-link" href="#Javascript">Javascript</a></li>
+        <li><a class="nav-link" href="#PHP">PHP</a></li>
+        <li><a class="nav-link" href="#Conclusion">Conclusion</a></li>
+      </ul>
+    </nav>
+    <main id="main-doc">
+      <h1>Technical Document</h1>
+      <section class="main-section" id="Introduction">
+        <header><h2>Introduction</h2></header>
+        <p>What is the components of web?</p>
+        <p>
+          In this page, we will introduce you the most common lanaguage in web
+          programming
+        </p>
+      </section>
+      <section class="main-section" id="HTML">
+        <header><h2>HTML</h2></header>
+        <p>
+          HTML stands for HyperText Markup Language. It is a standard markup
+          language for web page creation. It allows the creation and structure
+          of sections, paragraphs, and links using HTML elements such as tags
+          and attributes. HTML is the basic scripting language used by web
+          browsers to render pages on the world wide web
+        </p>
+        <p>HTML consist of various tag to layout the web format.</p>
+        <ul>
+          <li>A Small Tag like this <small>&lt;small&gt; tag </small></li>
+          <li>This is an <em>&lt;em&gt; tag</em> description</li>
+          <li>This is a <strong>&lt;strong&gt; tag</strong> description</li>
+          <li>This is a <b>&lt;b&gt; tag</b> description</li>
+          <li>
+            <cite>&lt;cite&gt; tag Interstellar</cite> by Christoper Nolan is a
+            movie that I like
+          </li>
+          <li>
+            He in the movie said
+            <q
+              >&lt;quote&gt; tag Love is the one thing we're capable of
+              perceiving that transcends dimensions of time and space.</q
+            >
+          </li>
+          <li>
+            <blockquote>
+              <footer>
+                <cite
+                  >&lt;blockquote&gt; tag, &lt;footer&gt;tag from Interstellar,
+                  Christoper Nolan</cite
+                >
+              </footer>
+            </blockquote>
+          </li>
+          <li>
+            HTML stands for &lt;abbr title=""&gt; tag
+            <abbr title="Hypertext Markup Language">Html</abbr>
+          </li>
+          <li>3x10<sup>3 &lt;sup&gt;tag</sup></li>
+          <li>H<sub>2 &lt;sub&gt;tag</sub>O</li>
+          <li>Delete Text <del>&lt;Delete&gt;tag</del></li>
+          <li>Highlight Text by <mark>Highlight Tag &lt;mark&gt;tag</mark></li>
+          <li>
+            Some Texts on the new lines <br />
+            New Line Tag &lt;br&gt;
+          </li>
+          <li>
+            This is <span style="color: green">Green</span> text in a sentance.
+          </li>
+          <li>
+            Address Tag with &lt;address&gt;
+            <address>
+              Contact Jacky Woo at
+              <a href="mailto:jackywoo@georgian.com">Author</a><br />
+              at georgian College at ILAC
+            </address>
+          </li>
+          <li>
+            Article Tag &lt;article&gt;
+            <article>
+              f Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+              Numquam sint porro dolore facere, eligendi deserunt odit! Quisquam
+              corrupti aliquam, ex labore sapiente nihil porro? Corrupti
+              corporis saepe rerum in odit!
+            </article>
+          </li>
+        </ul>
+        <div class="code">
+          <code>
+            &lt;!DOCTYPE html&gt;<br />
+            &lt;html&gt;<br />
+            &lt;body&gt;<br />
+            &lt;h1&gt;My First Heading&lt;/h1&gt; <br />
+            &lt;p&gt;My first paragraph.&lt;/p&gt; <br />
+            &lt;/body&gt; <br />
+            &lt;/html&gt; <br />
+          </code>
+        </div>
+      </section>
+      <section class="main-section" id="CSS">
+        <header><h2>CSS</h2></header>
+        <p>
+          CSS stands for Cascading Style Sheets. It is a language that controls
+          how HTML elements are displayed on web pages. It can change the
+          appearance, layout, and animation of web elements. It can also apply
+          different styles for different devices and screen sizes. CSS files are
+          external to HTML files
+        </p>
+        <div class="code">
+          <code>
+            p { <br />
+            color: red; <br />
+            text-align: center; <br />
+            }
+          </code>
+        </div>
+      </section>
+      <section class="main-section" id="Javascript">
+        <header><h2>Javascript</h2></header>
+        <p>
+          JavaScript is a language that enables dynamic and interactive web
+          pages. It can manipulate HTML, CSS, and other web elements, as well as
+          create functions, variables, and objects. It can also handle events,
+          data, and logic. It runs on web browsers and can communicate with
+          servers and databases
+        </p>
+        <div class="code">
+          <code
+            >&lt;button type="button"
+            onclick='document.getElementById("demo").innerHTML = "Hello
+            JavaScript!"'&gt;Click Me!&lt;/button&gt;</code
+          >
+        </div>
+      </section>
+      <section class="main-section" id="PHP">
+        <header><h2>PHP</h2></header>
+        <p>
+          PHP is a language that enables server-side web development. It can
+          embed HTML, CSS, and JavaScript code, as well as interact with
+          databases and files. It can also handle forms, sessions, cookies, and
+          other web features. It is widely used and supported by many web
+          frameworks and platforms
+        </p>
+        <div class="code">
+          <code> &lt;?php echo "Hello World!"; ?&gt;</code>
+          <code>
+            &lt;?php $x = "Hello world!"; $y = 'Hello world!'; var_dump($x);
+            echo "<br />"; var_dump($y); ?&gt;</code
+          >
+        </div>
+      </section>
+      <section class="main-section" id="Conclusion">
+        <header><h2>Conclusion</h2></header>
+        <p>These are only the very basic web language.</p>
+        <p>There are more to discover</p>
+        <p>Be sure to keep exploring</p>
+        <p>Stay Tuned</p>
+      </section>
+    </main>
+  </body>
+</html>

@@ -1,0 +1,68 @@
+html {
+  font-family: Helvetica, sans-serif;
+  line-height: 1.6;
+}
+
+@media (max-width: 500px) {
+  nav a {
+    text-decoration: none;
+    padding: 0.25em;
+  }
+}
+
+#navbar {
+  position: fixed;
+  min-width: 300px;
+  top: 0px;
+  left: 0px;
+  width: 300px;
+  height: 100%;
+  border-right: solid black;
+}
+
+#navbar header {
+  margin: 20px;
+  font-size: x-large;
+  font-weight: 900;
+}
+
+#navbar ul {
+  padding: 0px;
+  height: 100%;
+}
+
+#navbar li {
+  height: 100px;
+  list-style: none;
+  border-top: solid black;
+  width: 100%;
+  line-height: 100px;
+}
+
+#navbar li:last-of-type {
+  border-bottom: solid black;
+}
+
+#navbar a {
+  text-decoration: none;
+  padding: 20px 50px;
+}
+
+#main-doc {
+  position: absolute;
+  top: 0px;
+  left: 350px;
+}
+
+section {
+  display: block;
+}
+
+.code {
+  color: rgba(50, 50, 50, 1);
+  margin: 20px;
+  padding: 20px;
+  background-color: lightgray;
+  border-radius: 20px;
+  font-family: Consolas;
+}
